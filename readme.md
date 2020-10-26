@@ -6,10 +6,9 @@ Using the cd command navigate to where you woul like to store the files.
 
 being the repo cloning proccess with git clone https://github.com/riz7861/login-test.git
 
-install virtual environment using the pip installer
-pip3 install venv.
+install virtual environment and activate it (https://docs.python.org/3/library/venv.html)
 
-navigate to the location of the downloaded files and run command source test/bin/activate
+pip install -r requirements. txt 
 
 now find the manage.py file in the login-test folder and execute the command python3 manage.py runserver.
 
